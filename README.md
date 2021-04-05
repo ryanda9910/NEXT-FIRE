@@ -20,8 +20,8 @@ To learn more about Next.js, take a look at the following resources:
 
 ## TECH STACK 
 
--NEXTJS (SSR) -> FRAMEWORK
--FIREBASE AUTH  -> FOR LOGIN SAMPLE
--FIRESTORE -> FOR STORING DATA 
+- NEXTJS (SSR) -> FRAMEWORK
+- FIREBASE AUTH  -> FOR LOGIN SAMPLE
+- FIRESTORE -> FOR STORING DATA 
 
 
