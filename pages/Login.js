@@ -8,12 +8,12 @@ export default function Login() {
   const AuthLogin=()=>{
     try {
       auth.signInWithPopup(provider).then((res)=>{
-        console.log("RESPONE from google Auth",res)
-      }).catch((err)=>(
-        console.log(err,"SOMETHING WRONG")
-      ))
+        return res
+      }).catch((err)=>{
+        throw err
+      })
     } catch (error) {
-      console.log("ERROR",error)
+      throw error
     }
   }
 
